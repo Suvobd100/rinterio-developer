@@ -14,15 +14,17 @@
      <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Rinterio</title>
-    
+
     <script>
         tailwind.config = {
           theme: {
             extend: {
               colors: {
-                primary: '#ABEF5F',
-                secondary: '#ABEF5F80',
+                primary: '#212121',
+                secondary: '#494949',
                 body: '#FFFFFF',
+                primaryBtn: '#ABEF5F',
+                secondary: '#ABEF5F80',
               },
               
               fontFamily:{
@@ -32,8 +34,65 @@
           }
         }
       </script>
+      <link rel="stylesheet" href="./styles/styles.css">
+      
 </head>
-<body>
-    
+<body font-manrope>
+    <header class="w-11/12 mx-auto">
+        <div class="navbar">
+            <div class="navbar-start">
+              <div class="dropdown">
+                
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                    <ul class="p-2">
+                      <li><a>Submenu 1</a></li>
+                      <li><a>Submenu 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <!------------------------ law img ----------------------------->
+             <div class="flex items-center">
+        
+                
+                
+                <span>
+                    <i class="fa-solid fa-arrow-up fa-rotate-45"> </i>
+                </span>
+                <span class="rounded-full w-6 h-6 bg-primaryBtn -ml-4"> </span>
+
+                <a class="btn btn-ghost text-2xl ">Rinterio</a>
+             </div>
+             <!------------------------ law img ----------------------------->
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>HOME <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
+                    fa-solid fa-chevron-right"></i></a> </li>
+                <li><a>Service <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
+                    fa-solid fa-chevron-right"></i></a></li>
+                <li><a>Case <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
+                    fa-solid fa-chevron-right"></i></a></li>
+                <li><a>Blog <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
+                    fa-solid fa-chevron-right"></i></a></li>
+                <li><a>Contact us <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
+                    fa-solid fa-chevron-right"></i></a></li>
+                
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-primary text-body text-1xl">Free Consultation</a>
+            </div>
+        </div>
+        <!-- nav end -->
+    </header>
+    <main></main>
+    <footer></footer>
 </body>
 </html>

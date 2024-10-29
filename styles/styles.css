@@ -1,0 +1,4 @@
+/* for fontAwsome up aero degree change to 45 */
+.fa-rotate-45 {
+    transform: rotate(45deg);
+}
