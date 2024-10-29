@@ -24,7 +24,7 @@
                 secondary: '#494949',
                 body: '#FFFFFF',
                 primaryBtn: '#ABEF5F',
-                secondary: '#ABEF5F80',
+                secondaryBtn: '#ABEF5F80',
               },
               
               fontFamily:{
@@ -41,7 +41,11 @@
     <header class="w-11/12 mx-auto">
         <div class="navbar">
             <div class="navbar-start">
-              <div class="dropdown">
+              <!-- <div class="dropdown">
+                <div role="button" class="btn btn-ghost lg:hidden">
+                    
+                    <i class="fa-solid fa-bars"></i>
+                  </div>
                 
                 <ul
                   tabindex="0"
@@ -56,41 +60,84 @@
                   </li>
                   <li><a>Item 3</a></li>
                 </ul>
-              </div>
+              </div> -->
               <!------------------------ law img ----------------------------->
              <div class="flex items-center">
-        
-                
-                
+                       
+                <!-- arrow 45 degree with round shape start -->
                 <span>
                     <i class="fa-solid fa-arrow-up fa-rotate-45"> </i>
                 </span>
-                <span class="rounded-full w-6 h-6 bg-primaryBtn -ml-4"> </span>
+                <span class="roundPrimary -ml-4"> </span>
+            
 
-                <a class="btn btn-ghost text-2xl ">Rinterio</a>
+                <a class="btn btn-ghost text-3xl ">Rinterio</a>
              </div>
              <!------------------------ law img ----------------------------->
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>HOME <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
-                    fa-solid fa-chevron-right"></i></a> </li>
-                <li><a>Service <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
-                    fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Case <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
-                    fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Blog <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
-                    fa-solid fa-chevron-right"></i></a></li>
-                <li><a>Contact us <i class=" h-5 w-5 inline-flex justify-center items-center text-slate-300
-                    fa-solid fa-chevron-right"></i></a></li>
+                <li><a>Home </a> </li>
+                <li><a>Service </a></li>
+                <li><a>Portfolio </a></li>
+                <li><a>Blogs </a></li>
+                <li><a>Contact us </a></li>
                 
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn bg-primary text-body text-1xl">Free Consultation</a>
-            </div>
+               
+                <div class="navbar-end ">
+                    <div class="lg:flex lg:gap-6 ">
+                        <button>
+                            <i class="  hidden fa-solid fa-magnifying-glass border-2 border-slate-100 rounded-full py-4 px-4"></i>
+                            
+                        </button>
+                        <button>
+                            <i class="hidden fa-solid fa-cart-shopping border-2 border-slate-100 rounded-full py-4 px-4"></i>
+                        </button>
+                    </div>
+                <div class="lg:ml-6 ">
+                    <lg:a class="hidden btn text-1xl rounded-full py-4 px-10 bg-primaryBtn text-black lg:font-bold ">Book Consult</a>
+
+                </div>
+                    <!-- arrow with black rounded -->
+                <span>
+                    <i class=" hidden fa-solid fa-arrow-up fa-rotate-45 text-white -ml-8"> </i>
+                </span>
+                <span class="hidden roundSecondary -ml-9"> </span>
+                <!-- arrow with black rounded end -->
+                </div>
+                <a href=""><i class="fa-solid fa-bars border-slate-100 rounded-full py-4 px-4"></i></a>
         </div>
+        
         <!-- nav end -->
+         <!-- banner start -->
+         <div class="mt-6 flex flex-col justify-center items-center">
+            <div class="">
+                <img src="./assets/banner.png" alt="">
+            </div>
+            <div class=" lg:w-3/4 w-4/4 text-body items-center lg:py-4 py-4">
+                <h1 class="lg:text-4xl text-xl text-center font-bold text-primary">We Provide Effective <br>
+                    Legal Solutions</h1>
+                    <p class="text-primary text-center mt-4 lg:max-w-lg max-w-fit mx-auto">
+                        There are many variations of passages of Lorem Ipsum available, but the majority 
+                        have suffered alteration in some form, by injected humour
+                    </p>                       
+            </div>
+            
+                    <button class="text-1xl rounded-full py-4 px-10 bg-secondaryBtn text-black lg:font-bold " >
+                        View Details
+                        <span>
+                            <i class="roundPrimary z-30 fa-solid fa-arrow-up fa-rotate-45"> </i>
+                        </span>
+                       
+                    </button>
+                    
+            </div>
+            </div> 
+           
+         </div>
+        <!-- banner end -->
     </header>
     <main></main>
     <footer></footer>
