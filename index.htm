@@ -41,76 +41,72 @@
 </head>
 <body font-manrope>
     <header class="w-11/12 mx-auto">
-        <div class="navbar">
-            <div class="navbar-start">
-              <!-- <div class="dropdown">
-                <div role="button" class="btn btn-ghost lg:hidden">
-                    
-                    <i class="fa-solid fa-bars"></i>
-                  </div>
-                
-                <ul
-                  tabindex="0"
-                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                  <li><a>Item 1</a></li>
-                  <li>
-                    <a>Parent</a>
-                    <ul class="p-2">
-                      <li><a>Submenu 1</a></li>
-                      <li><a>Submenu 2</a></li>
-                    </ul>
-                  </li>
-                  <li><a>Item 3</a></li>
-                </ul>
-              </div> -->
-              <!------------------------ law img ----------------------------->
-             <div class="flex items-center">
-                       
-                <!-- arrow 45 degree with round shape start -->
-                <span>
-                    <i class="fa-solid fa-arrow-up fa-rotate-45"> </i>
-                </span>
-                <span class="roundPrimary -ml-4"> </span>
+          <!-- nav st -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+            <svg width="32.010620" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <desc>
+                        
+                </desc>
+                <defs/>
+                <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#ABEF5F" fill-opacity="1.000000"/>
+                <path id="Vector" d="M21 11L10 22" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+            </svg>
             
-
-                <a class="btn btn-ghost text-3xl ">Rinterio</a>
-             </div>
-             <!------------------------ law img ----------------------------->
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
-                <li><a>Home </a> </li>
-                <li><a>Service </a></li>
-                <li><a>Portfolio </a></li>
-                <li><a>Blogs </a></li>
-                <li><a>Contact us </a></li>
-                
-              </ul>
-            </div>
-               
-                <div class="navbar-end ">
+          <a class= "text-3xl h-7 w-7 font-bold ml-2 ">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li class="font-bold"><a>Home</a></li>
+            <li>
+              <a href="">Service</a>
+            </li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
                     <div class="lg:flex lg:gap-6 ">
                         <button>
-                            <i class="  hidden fa-solid fa-magnifying-glass border-2 border-slate-100 rounded-full py-4 px-4"></i>
+                            <i class="max-sm:hidden fa-solid fa-magnifying-glass border-2 border-slate-100 rounded-full py-4 px-4"></i>
                             
                         </button>
                         <button>
-                            <i class="hidden fa-solid fa-cart-shopping border-2 border-slate-100 rounded-full py-4 px-4"></i>
+                            <i class="max-sm:hidden fa-solid fa-cart-shopping border-2 border-slate-100 rounded-full py-4 px-4"></i>
                         </button>
                     </div>
-                <div class="lg:ml-6 ">
-                    <lg:a class="hidden btn text-1xl rounded-full py-4 px-10 bg-primaryBtn text-black lg:font-bold ">Book Consult</a>
-
+            <button class="max-sm:hidden rounded-full py-4 px-10 bg-[#ABEF5F] text-black lg:font-bold relative">Book Consult</button>
+            <i class="max-sm:hidden fa-solid fa-arrow-up fa-rotate-45 text-white h-7 w-7 rounded-full bg-black absolute l-6"> </i>
+            <!-- hem burger -->
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  
+                  <a href=""><i class="fa-solid fa-bars border-slate-100 rounded-full py-4 px-4"></i></a>
                 </div>
-                    <!-- arrow with black rounded -->
-                <span>
-                    <i class=" hidden fa-solid fa-arrow-up fa-rotate-45 text-white -ml-8"> </i>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li>
+                    <a>Service</a>
+                    
+                  </li>
+                  <li><a>Item 3</a></li>
+                  
+                  <span>
+                    
                 </span>
-                <span class="hidden roundSecondary -ml-9"> </span>
-                <!-- arrow with black rounded end -->
-                </div>
-                <a href=""><i class="fa-solid fa-bars border-slate-100 rounded-full py-4 px-4"></i></a>
+                <span class="roundSecondary -ml-9"> </span>
+
+               
+              </div>
+            <!-- end nav -->
+          
         </div>
+      </div>
+    <!-- nav end -->
         
         <!-- nav end -->
          <!-- banner start -->
@@ -407,6 +403,7 @@
          <section class= "bg-bgC">
             <!------------------------------------------------------------ wrapper this section ------------------------------------------>
             <div class="w-11/12 mx-auto mt-24">
+                <!-- title -->
                 <div class="flex flex-col justify-center items-center">
                     <button class=" mt-2 mb-10 bg-secondaryBtn py-2 px-7 rounded-full"> 
                         <i class=" fa-fw fa-solid fa-arrow-right"></i>Rinterio News
@@ -542,7 +539,56 @@
         <!-- Read Our Articles and News end -->
 
         <!-- ----------------------------------------email section start ------------------------------------>
+            <section class="email-Bg m-2">
+                <div class="w-9/12 mx-auto">
+                    <!-- title -->
+                        <div class="flex flex-col justify-center items-center">
+                            <button class=" mt-2 mb-10 bg-secondaryBtn py-2 px-7 rounded-full"> 
+                               <!-- its for- &#39 -use for single quote -->
+                                <i class=" fa-fw fa-solid fa-arrow-right"></i>Let &#39 Connect  
+                            </button>
+                        </div>
+            
+                        <div class=" lg:w-3/4 w-full items-center lg:py-4 lg-px-4 py-6 px-6 flex flex-col mx-auto mb-10">
+                            <h1 class="lg:text-4xl text-xl text-center font-bold text-primary ">Let s Discuss Next Project </h1>
+                                <p class="text-center mt-4 max-w-fit lg:mx-auto text-secondary ">
+                                    The barn house captivates with its blend of rustic charm and modern sophistication, <br>
+                                    featuring weathered wood, sleek metal accents
+                                </p>                       
+                        </div>
 
+                        <div class="w-4/5 mt-8 ">
+                            <div class="mb-10 text-black grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+
+                                <input type="text" placeholder=" First Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                <input type="text" placeholder=" Last Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                <input type="text" placeholder=" Phone Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                <input type="text" placeholder=" Email Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+
+                            </div>
+                           
+
+                            <div>
+                             <textarea rows="4" cols="1" class="lg:w-full w-80 border-2  bg-slate-50 rounded-full items-center">
+                                Write Your Messages
+                             </textarea>
+                            </div>
+     
+                            
+                             <span>
+                                
+                             <button class=" mt-2 mb-10 bg-primaryBtn py-2 px-7 rounded-full w-full font-bold "> 
+                                <i class="fa-rotate-45 fa-fw fa-solid fa-arrow-up"></i>Send Mail 
+                                 
+                             </button>
+                            </span>
+
+                            
+                             <!-- ================================== -->
+                             
+          
+                </div>
+            </section>
         <!-- -----------------------------------------email section end -------------------------------->
 
     </main>
