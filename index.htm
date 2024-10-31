@@ -42,7 +42,7 @@
 <body font-manrope>
     <header class="w-11/12 mx-auto">
           <!-- nav st -->
-    <div class="navbar bg-base-100">
+    <div class="navbar bg-base-100 w-10/12">
         <div class="navbar-start">
             <svg width="32.010620" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <desc>
@@ -74,19 +74,21 @@
                             
                         </button>
                         <button>
-                            <i class="max-sm:hidden fa-solid fa-cart-shopping border-2 border-slate-100 rounded-full py-4 px-4"></i>
+                            <i class="max-sm:hidden fa-solid fa-cart-shopping border-2 border-slate-100 rounded-full py-4 px-4 mr-6"></i>
                         </button>
                     </div>
             <button class="max-sm:hidden rounded-full py-4 px-10 bg-[#ABEF5F] text-black lg:font-bold">Book Consult</button>
-            <svg width="32.010620" height="32.010681" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <desc>
-                        Created with Pixso.
-                </desc>
-                <defs/>
-                <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#1C1C1C" fill-opacity="1.000000"/>
-                <path id="Vector" d="M21 11L10 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
-                <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
-            </svg>
+            <div class="absolute mr-1 max-sm:hidden">
+                <svg max-sm:hidden width="32.010620" height="32.010681" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/ xlink">
+                    <desc>
+                            Created with Pixso.
+                    </desc>
+                    <defs/>
+                    <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#1C1C1C" fill-opacity="1.000000"/>
+                    <path id="Vector" d="M21 11L10 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                    <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                </svg>
+            </div>
             <!-- hem burger -->
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -116,7 +118,6 @@
       </div>
     <!-- nav end -->
         
-        <!-- nav end -->
          <!-- banner start -->
          <div class="mt-6 flex flex-col justify-center items-center">
             <div class="">
@@ -147,7 +148,9 @@
     </header>
     <main>
         <!-- liveable spaces start -->
-         <section class="bg-slate-50">
+         <section class="bg-slate-50 overflow-hidden ">
+         <!-- <section> -->
+
 
             <!-- wrapper div of liveable section -->
 
@@ -336,13 +339,13 @@
                 <!-- image show case wrapper div with grid -->
 
                 <section class="w-11/12 mx-auto mt-4">
-                    <div class="grid lg:grid-cols-[80%_20%] grid-cols-[90%] gap-4 ">
+                    <div class="grid lg:grid-cols-[50%_20%] grid-cols-[70%] gap-4 justify-center items-center">
                 
-                        <!-- First Column (20% width) -->
-                        <div class="lg:flex p-4 border-4">
+                        <!-- 1st col (60% width) -->
+                        <div class="lg:flex p-2 border-2 rounded-2xl">
                             <h4 class=""><img src="./assets/img1.png" alt=""></h4>
                             <!-- text -->
-                                    <div class="py-4 mx-6">
+                                    <div class="py-4 mx-6 text-xs">
                                         <h4 class="font-bold">Residential</h4>
                                         <p>The barn house captivates with its blend of rustic charm 
                                             and modern. The barn house captivates <br> with its blend of 
@@ -359,8 +362,8 @@
                 
                         </div>
                     
-                        <!-- Second Column (80% width) -->
-                        <div class="p-4 border-4">
+                        <!-- 2 col 20% width) -->
+                        <div class="p-4 border-2 rounded-2xl">
                             <h4 class=""><img src="./assets/img2.png" alt=""></h4>
                         </div>
                     
@@ -368,18 +371,18 @@
                 
                 </section>
                 <section class="w-11/12 mx-auto mt-4">
-                    <div class="grid lg:grid-cols-[20%_60%_20%] grid-cols-[90%] gap-4 ">
+                    <div class="grid lg:grid-cols-[15%_40%_15%]  grid-cols-[70%]  gap-4 justify-center items-center">
                 
                         <!-- First Column (20% width) -->
-                        <div class=" p-4 border-4">
-                            <h4 class=""><img src="./assets/img3.png" alt=""></h4>
+                        <div class=" p-2 border-2 rounded-2xl">
+                            <h4 class="h-70% w-70%"><img src="./assets/img3.png" alt=""></h4>
                         </div>
                     
                         <!-- Second Column (60% width) -->
-                        <div class="lg:flex p-4 border-4">
+                        <div class="lg:flex p-4 border-2 rounded-2xl">
                             <h4 class=""><img src="./assets/img4.png" alt=""></h4>
                             <!-- text -->
-                                    <div class="py-4 mx-6">
+                                    <div class="py-2 mx-4 items-center justify-center text-xs">
                                         <h4 class="font-bold">Commercial</h4>
                                         <p>The barn house captivates with its blend of rustic charm 
                                             and modern. The barn house captivates <br> with its blend of 
@@ -396,8 +399,8 @@
                 
                         </div>
                         <!-- 3rd Column (20% width) -->
-                        <div class="p-4 border-4">
-                            <h4 class=""><img src="./assets/img5.png" alt=""></h4>
+                        <div class="p-2 border-2 rounded-2xl">
+                            <h4 class="h-70% w-70%"><img src="./assets/img5.png" alt=""></h4>
                         </div>
                     
                     </div>
@@ -408,6 +411,7 @@
         </section>
         <!-- Our Latest Portfolio section end -->
         <!-- Read Our Articles and News Start -->
+         <!-- <section class= ""> -->
          <section class= "bg-bgC">
             <!------------------------------------------------------------ wrapper this section ------------------------------------------>
             <div class="w-11/12 mx-auto mt-24">
@@ -547,13 +551,16 @@
         <!-- Read Our Articles and News end -->
 
         <!-- ----------------------------------------email section start ------------------------------------>
-            <section class="email-Bg m-2">
+            <!-- <section class=""> -->
+            <section class="email-Bg bg-no-repeat bg-cover bg-center m-2">
+               
                 <div class="w-9/12 mx-auto">
+                    
                     <!-- title -->
-                        <div class="flex flex-col justify-center items-center">
+                        <div class="flex flex-col justify-center items-center py-24">
                             <button class=" mt-2 mb-10 bg-secondaryBtn py-2 px-7 rounded-full"> 
                                <!-- its for- &#39 -use for single quote -->
-                                <i class=" fa-fw fa-solid fa-arrow-right"></i>Let &#39 Connect  
+                                <i class=" fa-fw fa-solid fa-arrow-right "></i>Let &#39 Connect  
                             </button>
                         </div>
             
@@ -565,56 +572,78 @@
                                 </p>                       
                         </div>
 
-                        <div class="w-4/5 mt-8 ">
-                            <div class="mb-10 text-black grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+                            <div class="flex justify-center items-center">
+                                <div class="w-4/5 mt-8 ">
+                                    <div class="mb-10 text-black grid lg:grid-cols-2 grid-cols-1 gap-4 ">
+        
+                                        <input type="text" placeholder=" First Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                        <input type="text" placeholder=" Last Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                        <input type="text" placeholder=" Phone Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+                                        <input type="text" placeholder=" Email Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
+        
+                                    </div>
+                               
+                                    <div>
+                                     
+                                     <textarea class="textbox1 rounded-2xl lg:w-[900px] lg:h-[200px] w-[300px] h-[300px] p-6  bg-slate-50"   placeholder="Write your message here" ></textarea>
+                                    </div>
+              
+                                        <span class="relative">
+                                               <button class="  mt-2 mb-10 bg-primaryBtn py-2 px-7 rounded-full w-full font-bold "> 
+                                                    </i>Send Mail 
 
-                                <input type="text" placeholder=" First Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
-                                <input type="text" placeholder=" Last Name*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
-                                <input type="text" placeholder=" Phone Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
-                                <input type="text" placeholder=" Email Number*" class="max-w-full rounded-full p-4 border-2  bg-slate-50">
-
+                                                    <div class="absolute lg:left-[510px] left-52 -top-1">
+                                                        <svg width="32.010620" height="32.010681" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                            <desc>
+                                                                    Created with Pixso.
+                                                            </desc>
+                                                            <defs/>
+                                                            <rect id="arrow-up-right-01" rx="16.509997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#1C1C1C" fill-opacity="1.000000"/>
+                                                            <path id="Vector" d="M21 11L10 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                                                            <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                                                        </svg>
+                                                        
+                                                    </div>
+                                                </button>
+                                                
+                                        </span>
+                                        
+                                    
+                                     <!-- ================================== -->
+                                     
+                  
+                                </div>
                             </div>
-                           
-
-                            <div>
-                             <textarea rows="4" cols="1" class="lg:w-full w-80 border-2  bg-slate-50 rounded-full items-center">
-                                Write Your Messages
-                             </textarea>
-                            </div>
-     
-                            
-                             <span>
-                                
-                             <button class=" mt-2 mb-10 bg-primaryBtn py-2 px-7 rounded-full w-full font-bold "> 
-                                <i class="fa-rotate-45 fa-fw fa-solid fa-arrow-up"></i>Send Mail 
-                                 
-                             </button>
-                            </span>
-
-                            
-                             <!-- ================================== -->
-                             
-          
-                </div>
             </section>
         <!-- -----------------------------------------email section end -------------------------------->
 
     </main>
-    <footer class="bg-[#1C1C1C]">
-        <div class="flex justify-center items-center text-center">
-            
+
+    <footer class="bg-[#1C1C1C] mx-auto">
+        <div class="flex justify-center items-center ">
+            <span class="right-[790px] mt-[50px] absolute">
+                <svg width="32.010620" height="32.010742" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                            Created with Pixso.
+                    </desc>
+                    <defs/>
+                    <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#ABEF5F" fill-opacity="1.000000"/>
+                    <path id="Vector" d="M21 11L10 22" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                    <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#1C1C1C" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                </svg>
+            </span>
                 
-              <a class= "text-3xl h-7 w-7 font-bold ml-2 text-[#E9E9E9] ">Rinterio</a>
+              <a class= " relative text-3xl h-7 w-7 font-bold text-[#E9E9E9] text-center mt-10 ">Rinterio</a>
         </div>
 
             <!-- ------------------------------ -->
-            <div class=" lg:w-3/4 w-full items-center lg:py-4 lg-px-4 py-6 px-6 flex flex-col mx-auto mb-10">
-                <h1 class="lg:text-4xl text-xl text-center font-bold text-primary text-[#E9E9E9] ">Read Our Articles and News </h1>
+            <div class=" lg:w-3/4 w-full items-center lg:py-4 lg-px-4 py-2 px-6 flex flex-col mx-auto">
+                <h1 class="lg:text-4xl text-xl text-center font-bold text-primary text-[#E9E9E9] mb-4">Read Our Articles and News </h1>
                     <p class="text-center mt-4 max-w-fit lg:mx-auto text-secondary ">
                         The barn house captivates with its blend of rustic charm and modern sophistication, <br>
                         featuring weathered wood, sleek metal accents
                     </p>   
-                    <div class="grid grid-cols-5 gap-24 font-bold text-[#E9E9E9]">
+                    <div class="grid lg:grid-cols-5 grid-cols-1 gap-24 font-bold text-[#E9E9E9] justify-center items- mt-6">
                         <div>
                             Home
                         </div>
@@ -630,11 +659,30 @@
                         <div>
                             ContactUs
                         </div>
+                    
 
-                    </div>                    
+                    </div> 
+                    <button class=" relative rounded-full py-4 px-10 bg-[#ABEF5F] text-black lg:font-bold mt-10">Book Consult</button> 
+
+                    <div class="absolute lg:mt-[220px] lg:ml-[140px] mt-[715px] ml-[130px]">
+                        <svg  width="32.010620" height="32.010681" viewBox="0 0 32.0106 32.0107" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/ xlink">
+                            <desc>
+                                    Created with Pixso.
+                            </desc>
+                            <defs/>
+                            <rect id="arrow-up-right-01" rx="15.499997" width="30.999994" height="31.000031" transform="translate(0.510620 0.500000) rotate(0.019056)" fill="#1C1C1C" fill-opacity="1.000000"/>
+                            <path id="Vector" d="M21 11L10 22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linecap="round"/>
+                            <path id="Vector" d="M15 10.13C15 10.13 20.64 9.66 21.49 10.51C22.35 11.37 21.87 17 21.87 17" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                          
             </div>
-
+            
+            
         </div>
+        
     </footer>
+   
+    
 </body>
 </html>
